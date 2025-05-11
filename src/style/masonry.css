@@ -1,0 +1,25 @@
+.masonry-list {
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .masonry-list {
+    column-count: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .masonry-list {
+    column-count: 3;
+  }
+}
+.masonry-list > * {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0);}
+  50% { transform: translateY(6px);}
+}
+.animate-bounce-slow {
+  animation: bounce-slow 1.2s infinite;
+} 
