@@ -19,8 +19,8 @@
 1. 克隆仓库：
 
 ```bash
-git clone https://github.com/yourusername/dsp-next.git
-cd dsp-next
+git clone https://github.com/11-shou/blog-next.git
+cd blog-next
 ```
 
 2. 安装依赖：
